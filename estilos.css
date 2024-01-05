@@ -1,0 +1,32 @@
+.Boton {
+    width: 150px;
+    height: 50px;
+    border: 2px;
+    background: rgb(28, 61, 153);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 10px; /* Espacio entre los botones */
+}
+
+.Boton-S {
+    width: 150px;
+    height: 50px;
+    border: 2px;
+    background: rgb(201, 55, 29);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 10px; /* Espacio entre los botones */
+}
+
+.formRetiro {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .Boton,
+    .Boton-S {
+        width: 100%; /* Ocupar todo el ancho disponible */
+    }
+}

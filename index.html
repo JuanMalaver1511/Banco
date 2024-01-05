@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Sistema Bancario</title>
+</head>
+<body>
+    <div>
+        <h1>Bienvenido al sistema bancario JM</h1>
+        <span>Seleccione el servicio</span>
+    </div>
+    <div>
+        <button class="Boton" onclick="mostrarRetiro()">Retirar</button>
+        <button class="Boton" onclick="mostrarDeposito()">Depositar</button>
+        <button class="Boton" onclick="mostrarSaldo()">Consultar saldo</button>
+        <a href="index.html"><button class="Boton-S" onclick="salir()">Salir</button></a>
+    </div>
+    <div id="mostrarServicio" class="formRetiro"></div>
+</body>
+<script src="function.js"></script>
+</html>
